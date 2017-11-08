@@ -1,3 +1,4 @@
+CXX= g++-5
 SOURCES=$(shell find . -name "*.cpp")
 OBJECTS=$(SOURCES:%.cpp=%.o)
 TARGET=porosity
