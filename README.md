@@ -10,10 +10,10 @@ Mac OS X.        | Supported on parent fork
 
 ##Why Fork?
 My first branch need was to reverse changes that made my own build of the project fail. Your mileage on building will vary, but I used Ubuntu PPA backported package of g++ 5 in order to build on a years-upgraded-distro of Linux Mint (my libraries are hell). The repo documents itself well,
-`https://launchpad.net/~ubuntu-toolchain-r/+archive/ubuntu/test
+`https://launchpad.net/~ubuntu-toolchain-r/+archive/ubuntu/test`
 
 Visual Studio 2015 has a make tools branch, so the IDE is not required to perform builds. It is a relatively lightweight distribution created from community demand for a small download and footprint, possibly for build server deployment. Link not provided because they change often. Visual Studio 2017 make tools is 5GB and requires a lot of extra fluff when we're only after one command:
-`msbuild porosity.sln
+`msbuild porosity.sln`
 
 ## Overview
 Ethereum is gaining a significant popularity in the blockchain community, mainly due to fact that it is design in a way that enables developers to write decentralized applications (Dapps) and smart-contract using blockchain technology.
